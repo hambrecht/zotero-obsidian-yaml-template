@@ -15,10 +15,8 @@ index, filter, and display them natively.
 Running the Zotero Integration command creates a literature note with:
 
 - **Frontmatter:** `title`, `year`, `importdate`, `category: literaturenote`,
-  `citekey`, `author` (as wikilinks), `tags` (normalised to lowercase with
+  `citekey`, `authors` (as wikilinks), `tags` (normalised to lowercase with
   underscores, brackets stripped)
-- **Metadata block:** journal / book, volume, issue, publisher, place, pages,
-  DOI, ISBN, item type
 - **Links** to attached PDFs (with URL-encoded paths)
 - **Abstract** and any **Zotero notes**
 - **Annotations** as callouts, split into highlights and notes, inside a
@@ -28,8 +26,8 @@ Running the Zotero Integration command creates a literature note with:
 ## Installation
 
 1. Install the **Zotero Integration** community plugin in Obsidian.
-2. Save `LN_templates.md` from this repo into your vault (a `templates/`
-   folder works well).
+2. Save `literature-note.md` from this repo into your vault (a `templates/`
+   folder works well). Or copy and paste the code from the `literature-note.txt` file.
 3. In the plugin settings, add a **Citation Format** of type `Create/Update Note`
    and point *Template File* at that file.
 4. Set the output folder, then run the command from Zotero or the Obsidian
@@ -41,8 +39,8 @@ Running the Zotero Integration command creates a literature note with:
 - Author names are wrapped in wikilinks, so each author becomes a note you can
   use as a hub. Delete the brackets in the template if you don't want that.
 - Tag normalisation is opinionated. Adjust the `replace` filters to taste.
-- The template uses [Nunjucks](https://mozilla.github.io/nunjucks/templating.html)
-  syntax, same as the plugin's own docs.
+- Zotero Integration runs [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) with trimBlocks enabled, which removes the newline immediately after any {% %} tag. Every block tag in this template therefore sits alone on its own line, where it disappears cleanly. If you put a tag at the end of a content line, that line loses its break: the frontmatter collapses onto one line and Obsidian stops parsing it as Properties. Keep one tag per line, and put separating blank lines inside conditional blocks rather than around them.
+- Test on a fresh item, or delete the note first.
 
 ## Template
 ```
