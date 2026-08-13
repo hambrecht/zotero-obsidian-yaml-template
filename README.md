@@ -61,39 +61,44 @@ rather than left blank.
 
 ```
 ---
-title: "Understanding the Effect of Forest Recovery Parameterization on Modeled Streamflow"
-citekey: "bouffordUnderstandingEffectForest2026"
-year: 2026
-authors: ["[[Boufford, Brianne L.]]", "[[Coops, Nicholas C.]]"]
+title: "Meta-work: how we research is as important as what we research"
+citekey: pyneMetaworkHowWe2022
+year: 2022
+authors:
+  - "[[Pyne, Yvette]]"
+  - "[[Stewart, Stuart]]"
 itemType: journalArticle
-publication: "Canadian Journal of Remote Sensing"
-volume: "52"
-issue: "1"
-pages: "2652004"
-DOI: "10.1080/07038992.2026.2652004"
+publication: British Journal of General Practice
+volume: "72"
+issue: "716"
+pages: 130-131
+DOI: 10.3399/bjgp22X718757
 category: literaturenote
 importdate: 2026-08-13
-tags: ["remote_sensing", "hydrology"]
+tags: []
 ---
 
-# Understanding the Effect of Forest Recovery Parameterization on Modeled Streamflow
-
+# Meta-work: <i>how</i> we research is as important as <i>what</i> we research
 > [!cite]
-> Boufford, B. L., & Coops, N. C. (2026). Understanding the Effect…
+> Pyne, Y., & Stewart, S. (2022). Meta-work: _How_ we research is as important as _what_ we research. _British Journal of General Practice_, _72_(716), 130–131. [https://doi.org/10.3399/bjgp22X718757](https://doi.org/10.3399/bjgp22X718757)
 
 ## Files
-- [PDF](file://…)
-
-## Abstract
-Characterizing the hydrological effects of forest disturbance and recovery…
+- [PDF](file://C:\Users\lhambrec\Zotero\storage\F4H5GKUC\pyne_and_stewart-2022-meta-work_how_we_research_is_as_important.pdf)
 
 ## Annotations
-### Imported 2026-08-13 8:23 am
+%% begin annotations %%
 
+### Imported 2026-08-13 9:21 am
 > [!quote]
-> After 10 years, LAI recovery ranged from 45% to 73% across ecozones.
+> The quality, volume, and breadth of his output has been credited to his ‘Zettelkasten’ (German for ‘slip box’) note-taking system.6 This slip box was filled with thousands of index cards that were linked together with a metadata-based indexing system and, through it, he created a virtual academic conversation partner and confidant long before the internet or personal computers were even conceived of
 >
-> [p. 1](zotero://open-pdf/…)
+> [p. 1](zotero://open-pdf/library/items/F4H5GKUC?page=1&annotation=JK4WTND8)
+> [!quote]
+> Rather than our hard-won notes being lost in personal silos of projects, folders, and just the passing of time, such graphs allow researchers to literally pan out and visualise their knowledge as a network, revealing nascent and serendipitous connections between percolating notes of ideas, insights, concepts, quotes, and questions
+>
+> [p. 2](zotero://open-pdf/library/items/F4H5GKUC?page=2&annotation=KI5Y7YNW)
+%% end annotations %%
+%% Import Date: 2026-08-13T09:21:55.450-07:00 %%
 ```
 
 ## Editing this template
