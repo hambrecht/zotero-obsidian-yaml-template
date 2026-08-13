@@ -11,6 +11,10 @@ inline Dataview-style fields in the note body. Those keys now live in frontmatte
 where Obsidian can index, filter, sort and display them natively, and where Bases
 and Dataview can query them without custom parsing.
 
+![A generated literature note in Obsidian, showing bibliographic metadata in the
+Properties panel and an imported Zotero highlight rendered as a quote callout](docs/example.png)
+
+
 ## Requirements
 
 - Obsidian 1.4 or later, for Properties support.
