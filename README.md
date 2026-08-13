@@ -1,6 +1,6 @@
 # Zotero → Obsidian literature note template (YAML frontmatter)
 
-An updated [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration)
+An updated [Zotero Integration](https://github.com/community-archive/obsidian-zotero-integration)
 literature note template for Obsidian, rewritten to use **YAML frontmatter** so it
 works with Obsidian's Properties system.
 
