@@ -27,7 +27,7 @@ Running the Zotero Integration command creates a literature note with:
 
 1. Install the **Zotero Integration** community plugin in Obsidian.
 2. Save `literature-note.md` from this repo into your vault (a `templates/`
-   folder works well). Or copy and paste the code from the `literature-note.txt` file.
+   folder works well).
 3. In the plugin settings, add a **Citation Format** of type `Create/Update Note`
    and point *Template File* at that file.
 4. Set the output folder, then run the command from Zotero or the Obsidian
